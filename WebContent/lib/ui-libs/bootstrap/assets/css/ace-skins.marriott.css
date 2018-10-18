@@ -1,0 +1,204 @@
+/* marriott skin */
+
+.navbar .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.skin-marriott .logo{
+	height: 27px;
+    margin-left: -4px;
+    margin-top: -4px;
+    
+    height: 34px;
+    /**margin-left: -5px;**/
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+.skin-marriott .navbar{
+	background-color: #494949;
+	/**background-color: #8a8a8a;**/
+}
+
+.skin-marriott .btn-primary, .skin-marriott .btn-primary:focus {
+    background-color: #2574b4!important;
+    border-color: #2574b4;
+}
+
+.skin-marriott a, .skin-marriott .nav-list>li .submenu>li.active>a, .skin-marriott .nav-list>li.active>a, .skin-marriott .nav-list>li>.submenu li.open>a, .skin-marriott .nav-list>li>.submenu li>.submenu li.active>a, .skin-marriott .nav-list>li>.submenu li>.submenu li.open>a{
+    color: #2574b4;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #2574b4;
+    text-decoration: underline;
+}
+
+/**
+
+.skin-marriott .sidebar, .skin-marriott .sidebar-shortcuts, .skin-marriott .breadcrumbs, .skin-marriott .sidebar-toggle, .skin-marriott .nav-list>li>a, .skin-marriott .sidebar-toggle>.ace-icon{
+	background-color: #e8e9e8!important;
+}
+
+.skin-marriott .nav-list>li, .skin-marriott .breadcrumbs, .skin-marriott .sidebar-toggle{
+    border-color: rgba(0,0,0,0.0875);
+}
+
+.skin-marriott .sidebar-toggle>.ace-icon{
+	
+}
+
+.skin-marriott .nav-list>li .submenu>li>a, .skin-marriott .nav-list>li .submenu{
+	background-color: #F4F4F4!important;
+}
+
+.skin-marriott .nav-list .open>a, .skin-marriott .nav-list .open>a:focus, .skin-marriott .nav-list .open>a:hover{
+	background-color: #F4F4F4!important;
+}
+
+.skin-marriott .nav-list>li.open>a{
+	
+}
+
+.skin-marriott .nav-list>li .submenu>li.active:not(.open)>a{
+	background-color: #fff!important;
+}
+
+.skin-marriott .nav-list>li .submenu>li>a:hover {
+    background-color: #fff!important;
+}
+
+
+.skin-marriott .nav-list>li:hover>a {
+    background-color: #F4F4F4!important;
+}
+
+.skin-marriott .nav-list>li>a:focus{
+	color: #585858!important;
+}
+
+.skin-marriott .nav-list>li:hover>a {
+    color: #266cad!important;
+}
+
+**/
+
+.nav-list>li.active:after{
+	border-color: #494949;
+}
+
+.nav-list li.active>a:after {
+    border-right-color: #2574b4;
+    -moz-border-right-colors: #2574b4;
+}
+
+.nav-list>li:before{
+	background-color: #2574b4;
+}
+
+.ace-nav>li.grey>a{
+	background-color: #494949;
+}
+
+.breadcrumb>li>a{
+	color: #494949;
+}
+
+.nav-list>li>a{
+	font-weight: bolder;
+}
+
+.ace-nav>li>a, .ace-nav>li>a:focus{
+    background-color: #5f5f5f;
+} 
+
+.ace-nav>li:last-child>a{
+    background-color: #494949;
+} 
+
+.ace-nav>li.open>a, .ace-nav>li>a:hover {
+	background-color: #7d7d7d;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #5291DD;
+    border-color: #5291DD;
+}
+
+
+
+.btn-logout, .btn-logout:focus {
+    background-color: #e87500!important;
+    border-color: #e87500;
+    
+    background-color: #737373!important;
+    border-color: #737373;
+    
+    
+}
+
+.btn-logout:active, .btn-logout:hover, .open .btn-logout.dropdown-toggle {
+    background-color: #737373!important;
+    border-color: #616161;
+}
+
+
+
+.btn-home, .btn-home:focus {
+    background-color: #2574b4!important;
+    border-color: #2574b4;
+    
+    background-color: #737373!important;
+    border-color: #737373;
+}
+
+.btn-home:active, .btn-home:hover, .open .btn-home.dropdown-toggle {
+    background-color: #737373!important;
+    border-color: #616161;
+}
+
+.sidebar-shortcuts-mini .btn-mail{
+	display: none;
+}
+
+
+
+.widget-box.transparent>.widget-header{
+	color: #1c1c1c;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.page-header h1{
+	color: #1c1c1c;
+}
+
+.brandtext{
+	display: none;
+}
+
+.navbar .navbar-toggle{
+	background-color: #494949!important;
+}
+
+.navbar .navbar-toggle.display, .navbar .navbar-toggle[data-toggle=collapse]:not(.collapsed){
+	background-color: #494949!important;
+}
+
+.navbar .navbar-toggle:hover{
+	background-color: #494949!important;
+}
+
+.ace-nav>li.navbar-right-cornor>a {
+    /**background-color: #8a8a8a!important;**/
+}
+
+.ace-nav>li.navbar-right-cornor>a:hover {
+    background-color: #5f5f5f!important
+}
+
+.nav .navbar-right-cornor.open>a, .nav .navbar-right-cornor.open>a:focus {
+    background-color: #5f5f5f;
+    border-color: #5f5f5f;
+}

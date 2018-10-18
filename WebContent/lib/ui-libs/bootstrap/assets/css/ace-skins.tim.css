@@ -1,0 +1,230 @@
+/* skin tim */
+.skin-tim {
+	
+}
+
+.skin-tim .breadcrumbs {
+    position: relative;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #f1e6b2;
+    min-height: 41px;
+    line-height: 40px;
+    padding: 0px 12px 0px 0px;
+    display: block;
+}
+
+.skin-tim .yellow {
+    color: #fdd700 !important;
+}
+
+.skin-tim .navbar {
+    background: none repeat scroll 0% 0% #ac172b;
+}
+
+.skin-tim .navbar .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: none;
+}
+
+.skin-tim .user-info {
+    background: none repeat scroll 0% 0% #ac172b;
+}
+
+.skin-tim .light-blue {
+    color: #ac172b !important;
+}
+
+.skin-tim .ace-nav > li.grey > a {
+    background-color: #ac172b;
+}
+
+.skin-tim  .ace-nav > li.light-blue > a:hover, .ace-nav > li.light-blue > a:focus {
+    background-color: #ac172b;
+}
+
+.skin-tim  .ace-nav > li.light-blue > a {
+    background-color: #ac172b;
+}
+
+.skin-tim .btn-success, .btn-success:focus {
+background-color: #5a1300!important;
+border-color: #5a1300;
+}
+
+.skin-tim .btn-info, .btn-info:focus {
+background-color: #D69A2D!important;
+border-color: #D69A2D;
+}
+
+.skin-tim .btn-warning, .btn-warning:focus {
+background-color: #3F2021!important;
+border-color: #3F2021;
+}
+
+.skin-tim  .btn-danger, .btn-danger:focus {
+background-color: #a6192e!important;
+border-color: #a6192e;
+}
+
+.skin-tim  .page-header h1 {
+padding: 0;
+margin: 0 8px;
+font-size: 24px;
+font-weight: lighter;
+color: #000000;
+}
+
+.skin-tim .widget-box.transparent > .widget-header {
+    color: #000000;
+}
+
+.skin-tim a:hover, a:focus {
+    color: #D15B47;
+}
+.skin-tim a {
+    color: #000000;
+}
+
+.skin-tim .label-danger, .badge-danger {
+    background-color: #E1261C !important;
+}
+
+.skin-tim .nav-list li.active > a:after {
+    border-color: transparent #a6192e transparent transparent;
+}
+
+.skin-tim .nav-list > li.active > a, .nav-list > li.active > a:hover, .nav-list > li.active > a:focus, .nav-list > li.active > a:active {
+    background-color: #FFF;
+    color: #2B7DBC;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.skin-tim .breadcrumb > li > a {
+    display: inline-block;
+    padding: 0px 4px;
+    color: #a6192e;
+}
+
+.skin-tim .nav-list > li.active:after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    bottom: 0px;
+    z-index: 1;
+    border-style: solid;
+    border-color: #a6192e;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 0px 2px 0px 0px;
+}
+
+.skin-tim  .nav-list > li.active > a, .nav-list > li.active > a:hover, .nav-list > li.active > a:focus, .nav-list > li.active > a:active {
+    color: #a6192e;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.skin-tim  .label-important, .badge-important {
+    background-color: #E1261C !important;
+}
+
+.skin-tim .blue {
+    color: #5a1300 !important;
+}
+
+.skin-tim .btn-primary, .btn-primary:focus {
+    background-color: #a6192e !important;
+    border-color: #a6192e;
+}
+
+.skin-tim .dataTable th.sorting_asc:after {
+    color: #a6192e;
+}
+
+.skin-tim .dataTable th[class*="sorting_"] {
+    color: #a6192e;
+}
+
+.skin-tim .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #FFF;
+    cursor: default;
+    background-color: #a6192e;
+    border-color: #a6192e;
+}
+
+.skin-tim  .header-color-blue2 {
+    background: none repeat scroll 0% 0% #5a1300;
+    border-color: #5a1300;
+}
+
+.skin-tim .nav-list > li .submenu > li.active > a {
+    color: #a6192e;
+}
+
+.skin-tim  .widget-color-blue2>.widget-header { 
+background: #5a1300;
+border-color: #5a1300;
+}
+
+.skin-tim  .ace-nav>li.purple>a {
+background-color: #a6192e;
+}
+
+.skin-tim  .badge-success, .label-success {
+background-color: #62a70f!important;
+}
+
+.skin-tim  .widget-color-blue2>.widget-header {
+background: #5a1300;
+border-color: #5a1300;
+}
+
+.skin-tim .table-header {
+background-color: #5a1300;
+color: #FFF;
+font-size: 14px;
+line-height: 38px;
+padding-left: 12px;
+margin-bottom: 1px;
+}
+
+.skin-tim  .wizard-steps li.active .step, .wizard-steps li.active:before, .wizard-steps li.complete .step, .wizard-steps li.complete:before {
+border-color: #62a70f;
+}
+
+.skin-tim  .infobox-blue2 {
+color: #62a70f;
+border-color: #62a70f;
+}
+
+.skin-tim  .badge-info, .label-info {
+background-color: #D69A2D!important;
+}
+
+.skin-tim  .infobox-blue.infobox-dark {
+background-color: #62a70f;
+border-color: #62a70f;
+}
+
+.skin-tim .breadcrumb > li, .breadcrumb > li.active {
+    color: #a6192e;
+}
+
+.skin-tim .sidebar-shortcuts {
+    text-align: center;
+    line-height: 39px;
+    background-color: #F1E6B2;
+}
+.brandtext {
+    
+    font-size: 14px;
+    margin-left: 70px;
+}

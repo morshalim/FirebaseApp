@@ -1,0 +1,57 @@
+.sel_box {
+	border-right: 3px solid #4692cc;
+}
+
+.well {
+	cursor: pointer;
+}
+
+.well:hover {
+	background-color: #f2f2f2;
+}
+
+.dmn_dropdown_toggle {
+	border: 0px;
+	padding: 1px 5px;
+	font-size: 10px;
+	margin-left: 5px !important;
+}
+
+.dmn_dropdown {
+	margin-left: 4px;
+	margin-top: 1px;
+}
+
+.slimfit {
+	margin-bottom: 0px;
+}
+
+.profile-info-name {
+	width: 20%;
+}
+
+.domainDetailsLoading,
+.usageChartsLoading,
+.authorsLoading,
+.infoboxLoading {
+	width: 100%;
+	text-align: center;
+	padding: 24px;
+	display: none;
+	color: #4383B4;
+}
+
+.treeLoading {
+	width: 100%;
+	text-align: center;
+	padding: 24px;
+	color: #4383B4;
+}
+
+.infoboxes,
+.infoboxError {
+	display: none;
+}
+.now_loading {
+	display: block;
+}

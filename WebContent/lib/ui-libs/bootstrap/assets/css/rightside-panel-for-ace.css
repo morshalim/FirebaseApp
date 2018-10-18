@@ -1,0 +1,95 @@
+body {
+    overflow-x: hidden;
+}
+
+ #sidePanelRight{
+	padding-left: 0;
+	
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	
+	float: right;
+	position: absolute;
+    right: 0;
+    top: auto;
+    z-index: 1039;
+	background-color: #f4f4f4;
+    height: 100%;
+	display: block;
+	width: 0px;
+	border-left: 0px solid #d8d8d8;
+	overflow: hidden;
+}
+		
+#sidePanelRight.toggled {
+	width: 320px;
+	border-left: 1px solid #d8d8d8;
+	margin-right: 0px;
+}
+
+#sidePanelRightCtnr{
+	padding: 20px;
+	position: relative;
+	height: 90%;
+	position: static;
+	width: 320px;
+	display: none;
+}
+
+#sidePanelRight.toggled #sidePanelRightCtnr{
+	display: block;
+}
+
+#sidePanelRightTitle{
+
+}
+
+#sidePanelRightContent{
+	/**display: none;**/
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 100%;
+	padding-right: 10px;
+	width: 100%!important;
+}
+
+#sidePanelRight.toggled #sidePanelRightContent{
+	display: block;
+}
+
+@media(max-width:768px) {
+    #sidePanelRight.toggled {
+        width: 100%!important;
+    }
+	
+	#sidePanelRight.toggled #sidePanelRightCtnr{
+        width: 100%!important;
+    }
+}
+
+/** icon **/
+
+.ace-nav>li>a.sidePanelRightToggled{
+	background-color: #f4f4f4;
+}
+
+.ace-nav>li>a.sidePanelRightToggled>.ace-icon{
+	color: #555;
+}
+
+/** .ace-nav>li>a.sidePanelRightToggled:focus, .ace-nav>li>a.sidePanelRightToggled:hover, .ace-nav>li.open>a.sidePanelRightToggled **/
+
+.ace-nav>li>a.sidePanelRightToggled:hover{
+	background-color: #e0e0e0;
+}
+
+#sidePanelRightLoading{
+  width: 18px;
+  height: 18px;
+  background: url(../img/loading.gif) center no-repeat;
+  background-size: contain;
+  margin-left: 5px;
+  margin-top: 25px;
+}

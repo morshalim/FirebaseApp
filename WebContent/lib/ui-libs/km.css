@@ -1,0 +1,166 @@
+.panel-title .fa,
+.topicsList .fa {
+	margin-right:10px;
+}
+
+.span-button-atRight { 
+	cursor: pointer;
+	margin-right:5px; 
+}
+.span-button-atRight:last-child { margin-right:0;  }
+.span-button-atLeft { 
+	cursor: pointer;
+	margin-left:5px; 
+}
+.span-button-atLeft:first-child { 
+	margin-left:0; 
+}
+
+.loadingBar {
+  margin: 10px auto;
+  width: 30px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.loadingBar > div {
+  background-color: #ccc;
+  height: 100%;
+  width: 5px;
+  margin-right:1px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+.loadingBar > div:last-of-type {
+  margin-right:0;
+}
+
+
+.loadingBar .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.loadingBar .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.loadingBar .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.loadingBar .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+#pdf {
+    width: 100%;
+    height: 1000px;
+    margin: 0em auto;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+#pdf p {
+    padding: 1em;
+}
+
+#pdf object {
+    display: block;
+    border: solid 1px #666;
+}
+
+.dropzone {
+	border: 4px dashed #d5d5d5;
+	padding: 20px;
+}
+.dropzone:hover {
+	background-color: #ebebeb;
+	border-color: #b5b5b5;
+}
+
+.dropzone:hover .upload-icon {
+	opacity: 1 !important;
+}
+
+#fileUpload {
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+#fileUpload h4 {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+textarea,
+input[type=text] {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.tags {
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#titleinput {
+	padding-top: 5px;
+}
+
+input.typeahead {
+	font-size: 14px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.uploading_file {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border: 1px solid #d5d5d5;
+	padding: 20px !important
+}
+
+.uploading_file,
+.uploading_file * {
+	background-color: #fefefe;
+}
+
+.dz-success-mark,
+.dz-error-mark {
+	border-radius: 0 !important;
+	background-color: #fefefe !important;
+	display: none;
+}
+
+.dz-success-mark::before,
+.dz-error-mark::before {
+	cursor: pointer;
+}

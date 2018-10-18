@@ -1,0 +1,181 @@
+div.autoOverflow {
+    overflow: auto;
+}
+.file_box { 
+    border: 1px solid #eee; 
+    background-color: #fafafa; 
+}
+
+.widthAuto{
+	width: 100%;
+}
+
+div.autoOverflow {
+	overflow: auto;
+}
+
+.art_selector {
+	padding: 5px;
+	cursor: pointer;
+}
+
+.art_icon {
+	display: inline-block;
+	padding: 5px;
+	min-height: 50px;
+}
+
+.art_details {
+	display: inline-block;
+	padding: 5px;
+	vertical-align: top;
+	width: 210px;
+}
+
+.art_selector.act {
+	background-color: #cee0fe;
+}
+
+.article_body .authorName, 
+.article_body .domainName, 
+.article_body .creationDate, 
+.fav .authorName, 
+.fav .domainName, 
+.fav .creationDate {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.article_body .creationDate, 
+.fav .creationDate {
+	margin-left: 7px;
+}
+
+.article_body .authorName:last-child, 
+.article_body .domainName:last-child, 
+.article_body .creationDate:last-child, 
+.fav .authorName:last-child, 
+.fav .domainName:last-child, 
+.fav .creationDate:last-child {
+	margin-right: 0;
+}
+
+.article {
+	border: 1px solid #dadbde;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.article_body {
+	padding: 10px;
+}
+
+.article_title {
+	font-size: 14pt;
+	color: #176ab8;
+}
+
+.article_subtext {
+	margin-bottom: 10px;
+	color: #6e727e;
+}
+
+.article_foot {
+	border-top: 1px solid #dadbde;
+	background-color: #f5f5f5;
+	margin-top: 10px;
+}
+
+.foot_section {
+	padding: 5px;
+	color: #989a9c;
+	font-size: 11pt;
+	border-right: 1px solid #dadbde;
+	display: inline-block;
+}
+
+.softtext {
+	color: #a8adb0;
+}
+
+.outer_search {
+	background-color: #2d6eb4;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+.search_box {
+	border: 1px solid #dadbde;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 4px 6px;
+	background-color: #fff;
+}
+
+.search_field {
+	font-size: 14pt;
+	border: none;
+	width: 90%;
+	color: #000;
+}
+
+:focus {
+    outline: 0;
+}   
+
+.fav {
+	margin-bottom: 10px;
+}
+
+.fav_title {
+	font-size: 12pt;
+	color: #176ab8;
+}
+
+.fav_subtext {
+	color: #6e727e;
+	padding-left: 20px;
+}
+
+.recent {
+	margin-bottom: 10px;
+}
+
+.recent_title {
+	font-size: 12pt;
+	color: #176ab8;
+}
+
+#search_searchButton {
+	margin-top: 19px;
+}
+
+#search_postButton {
+	cursor: pointer;
+	margin-right: 2px;
+}
+
+.adv_search_box p {
+	margin: 0px !important;
+}
+
+#advsearch {
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 5px;
+}
+.adv_search {
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#updateDetails {
+	padding: 6px 12px;
+}
+
+.selected_folder {
+	font-weight: bold;
+}

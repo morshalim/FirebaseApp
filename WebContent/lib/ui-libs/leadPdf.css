@@ -1,0 +1,415 @@
+div { display:inline; }
+.form-group>label[class*=col-] {
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+.no-padding-right {
+    padding-right: 0!important;
+}
+/* @media (min-width: 768px) */
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+.col-sm-12 {
+    width: 100%;
+ }
+ .col-sm-11 {
+   width: 91.666%;
+ }
+ .col-sm-10 {
+   width: 83.333%;
+ }
+ .col-sm-9 {
+   width: 75%;
+ }
+ .col-sm-8 {
+   width: 66.666%;
+ }
+ .col-sm-7 {
+   width: 58.333%;
+ }
+ .col-sm-6 {
+   width: 50%;
+ }
+ .col-sm-5 {
+   width: 41.666%;
+ }
+ .col-sm-4 {
+   width: 33.333%;
+ }
+ .col-sm-3 {
+   width: 25%;
+ }
+ .col-sm-2 {
+   width: 16.666%;
+ }
+ .col-sm-1 {
+   width: 8.333%;
+ }
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+     float: left;
+}
+.col-lg-12 {
+    width: 100%;
+}
+ .col-lg-11 {
+   width: 91.666%;
+ }
+ .col-lg-10 {
+   width: 83.333%;
+ }
+ .col-lg-9 {
+   width: 75%;
+ }
+ .col-lg-8 {
+   width: 66.666%;
+ }
+ .col-lg-7 {
+   width: 58.333%;
+ }
+ .col-lg-6 {
+   width: 50%;
+ }
+ .col-lg-5 {
+   width: 41.666%;
+ }
+ .col-lg-4 {
+   width: 33.333%;
+ }
+ .col-lg-3 {
+   width: 25%;
+ }
+ .col-lg-2 {
+   width: 16.666%;
+ }
+ .col-lg-1 {
+   width: 8.333%;
+ }
+label {
+    font-weight: 400;
+    font-size: 15px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+/*headindg*/
+/* .row {
+    margin-left: -12px;
+    margin-right: -12px;
+} */
+body {
+   /* background-color: #e4e6e9;*/
+    min-height: 100%;
+    padding-bottom: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #393939;
+    line-height: 2;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    min-height: 100%;
+    position: relative;
+}
+Pseudo ::before element
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.page-header {
+  margin: 0 0 12px;
+  border-bottom: 1px dotted #e2e2e2;
+  padding-bottom: 16px;
+  padding-top: 7px;
+}
+.page-header h1 {
+  padding: 0;
+  margin: 0 8px;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #2679b5;
+}
+.page-header h1 small {
+  margin: 0 6px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #8089a0;
+}
+.page-title {
+  margin: 0 0 12px;
+  padding-bottom: 0px;
+  padding-top: 7px;
+  text-align: center;
+}
+.page-title h1 {
+  padding: 0;
+  margin: 0 8px;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #2679b5;
+}
+.page-title h1 small {
+  margin: 0 6px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #8089a0;
+}
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1.smaller {
+  font-size: 31px;
+}
+h1.bigger {
+  font-size: 33px;
+}
+h1.block {
+  margin-bottom: 16px;
+}
+h2 {
+  font-size: 26px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2.smaller {
+  font-size: 25px;
+}
+h2.bigger {
+  font-size: 27px;
+}
+h2.block {
+  margin-bottom: 16px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h3.smaller {
+  font-size: 21px;
+}
+h3.bigger {
+  font-size: 23px;
+}
+h3.block {
+  margin-bottom: 16px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h4.smaller {
+  font-size: 17px;
+}
+h4.bigger {
+  font-size: 19px;
+}
+h4.block {
+  margin-bottom: 16px;
+}
+h5 {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h5.smaller {
+  font-size: 14px;
+}
+h5.bigger {
+  font-size: 16px;
+}
+h5.block {
+  margin-bottom: 16px;
+}
+h6 {
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h6.smaller {
+  font-size: 12px;
+}
+h6.bigger {
+  font-size: 14px;
+}
+h6.block {
+  margin-bottom: 16px;
+}
+.h1,.h2,.h3,.h4, .h5, .h6 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.lighter {
+    font-weight: lighter;
+}
+.widget-box {
+    padding: 0;
+    box-shadow: none;
+    margin: 3px 0;
+    /*border: 1px solid #CCC;*/
+}
+widget-box.transparent {
+    border-width: 0;
+}
+
+.widget-header {
+    box-sizing: content-box;
+    position: relative;
+    min-height: 38px;
+   /*  background: #f7f7f7 repeat-x;
+    background-image: -o-linear-gradient(top,#fff 0,#eee 100%);
+    background-image: linear-gradient(to bottom,#fff 0,#eee 100%); */
+    color: #669fc7;
+    border-bottom: 1px solid #DDD;
+    padding-left: 12px;
+}
+.widget-header:after, .widget-header:before {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+/* .widget-header-flat {
+    background: #F7F7F7;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+} */
+widget-header>.widget-title {
+    line-height: 36px;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+/* Inherited from div.widget-header.widget-header-flat
+.widget-box.transparent>.widget-header {
+    background: 0 0;
+    border-width: 0;
+    border-bottom: 1px solid #DCE8F1;
+    color: #4383B4;
+    padding-left: 3px;
+} */
+.widget-body {
+    background-color: #FFF;
+     padding: 15px;
+}
+.widget-box.transparent>.widget-body {
+    border-width: 0;
+    background-color: transparent;
+}
+.widget-toolbar {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 37px;
+    float: right;
+    position: relative;
+}
+.widget-toolbar:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: -1px;
+    border: 1px solid #D9D9D9;
+    border-width: 0 1px 0 0;
+}
+
+
+/*table */
+
+/*ace min*/
+.widget-body .table {
+	/* border-top: 1px solid #E5E5E5; */
+}
+
+.table-bordered, td, th {
+	border-radius: 0 !important;
+}
+
+/*bootstrap.min*/
+table {
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.table {
+     width: 94%;
+    max-width: 94%; 
+    margin-bottom: 20px;
+    border:1px #000 solid; 
+    border-collapse:collapse;
+}
+th, td {
+    padding: 15px;
+   text-align: left;
+}
+.table{border:1px #000 solid; border-collapse:collapse;}
+.table th,.table td{padding:3px 3px; border:1px #000 solid;}
+.table th{background:#ddd;}
+.table-bordered, .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th,
+	.table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th,
+	.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border: 1px solid #ddd;
+}
+
+
+/*Check box*/
+.checkboxGroup, .radioGroup {
+    margin-left: 150px !important;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*ace.css */
+input[type=checkbox].ace+.lbl, input[type=radio].ace+.lbl {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	line-height: 20px;
+	min-height: 18px;
+	min-width: 18px;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+input[type=checkbox].ace+.lbl::before, input[type=radio].ace+.lbl::before{
+	cursor: pointer;
+	font-family: fontAwesome;
+	font-weight: normal;
+	font-size: 12px;
+	color: #32a3ce;
+	content: "\a0";
+	background-color: #FAFAFA;
+	border: 1px solid #c8c8c8;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	/*, inset 0px -15px 10px -12px rgba(0,0,0,0.05);*/
+	border-radius: 0;
+	display: inline-block;
+	text-align: center;
+	height: 16px;
+	line-height: 14px;
+	min-width: 16px;
+	margin-right: 1px;
+	position: relative;
+	top: -1px;
+}
+
+input[type=checkbox].ace:hover+.lbl::before, input[type=radio].ace:hover+.lbl::before,
+	input[type=checkbox].ace+.lbl:hover::before, input[type=radio].ace+.lbl:hover::before
+{
+	border-color: #ff893c;
+}
